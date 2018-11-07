@@ -1,0 +1,11 @@
+<%= simple_form_for(@restaurant, html: { class: 'form-inline' }) do |f|
+ %>
+
+<%= f.input :name, class:"form-control" %>
+<%= f.input :address %>
+<%= f.input :phone_number %>
+<%= f.input :category %>
+
+<%= f.submit class:"btn btn-primary" %>
+
+<% end  %>
